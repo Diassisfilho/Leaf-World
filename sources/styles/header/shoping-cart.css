@@ -1,0 +1,25 @@
+.shopping-cart { /* Add drop box with ilustation discord like */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.shopping-cart .number-of-items {
+    display: flex;
+    position: absolute;
+    background: var(--third-color);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+
+    transform: translateX(-8px) translateY(2px);
+}
+
+.shopping-cart .number-of-items p {
+    margin: auto;
+    text-align: center;
+    font-size: 10px;
+    color: var(--darken-fourth-color);
+    transform: translateY(1px) translateX(0.5px);
+}
