@@ -1,0 +1,89 @@
+.carrosel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    padding: 50px;
+}
+
+.carrosel-container img {
+    width: 390px;
+    height: 480px;
+}
+
+/* Carrosel detail item */
+.detail-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 490px;
+}
+
+.price-rotated-container {
+    position: absolute;
+    transform: rotateZ(-90deg) translateX(-41px) translateY(470px);
+    opacity: 0.6;
+}
+
+.price-rotated-container > .unit, .price {
+    display: inline;
+}
+
+.price-rotated-container .unit {
+    font-size: 1rem;
+}
+
+.item-description-and-prices {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+}
+
+.item-description-and-prices > .description, .real-price, .promotion-price {
+    font-size: 1.2rem;
+}
+
+.prices .real-price {
+    display: inline;
+
+    font-size: 0.9rem;
+    text-decoration: line-through;
+}
+
+/* Container buttons */
+.container-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+}
+
+.container-btn-trapeze p {
+    font-size: 0.9rem;
+}
+
+/* Styling add button */
+.container-btn-add:after, .container-btn-add .btn-trapeze{
+    background-color: var(--fourth-color);
+}
+
+.container-btn-add p {
+    color: var(--darken-fourth-color);
+    padding: 6px 27px 6px 18px;
+}
+
+/* Styling detail button */
+.container-btn-detail, .container-btn-detail p{
+    transform: rotateZ(180deg);
+}
+
+.container-btn-detail p {
+    color: var(--darken-secundary-color);
+    padding: 6px 18px 6px 27px;
+}
+
+.container-btn-detail:after, .container-btn-detail .btn-trapeze {
+    background-color: var(--secundary-color);
+}

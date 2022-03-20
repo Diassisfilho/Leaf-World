@@ -13,131 +13,33 @@
     margin: 0;
     padding: 0;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 body {
     background-color: var(--primary-color);
 }
 
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
 .icon {
-    height: 22px;
-}
-
-/* Header */
-.header-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 50px 50px 10px 50px;
-}
-
-.site-name h3 { /* Add another font */
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.header-menus nav {
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
-
-    align-items: center;
-}
-
-.header-menus nav .toolbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 32px;
-}
-
-.header-menus nav .spacing-bar {
-    background-color: black;
-    width: 2px;
-    height: 30px;
-}
-
-/* Carrosel */
-.carrosel-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-    padding: 50px;
-}
-
-.carrosel-container img {
-    width: 382.5px;
-    height: 478px;
-}
-
-.carrosel-infos-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 490px;
-}
-
-.carrosel-infos-item .title {
-    font-weight: bold;
-    font-size: 68px;
-}
-
-.carrosel-infos-item .total-price {
-    transform: rotateZ(-90deg) translateX(-41px) translateY(470px);
-    position: absolute;
-
-    opacity: 0.6;
-
-    font-weight: bold;
-}
-
-.carrosel-infos-item .price {
-    display: inline;
-    font-size: 32px;
-}
-
-.carrosel-infos-item .unit {
-    display: inline;
-    font-size: 18px;
-}
-
-.carrosel-infos-item .description-and-prices {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-.carrosel-infos-item .description-and-prices > .real-price, .promotion-price, .description {
-    font-size: 18px;
-}
-
-.carrosel-infos-item .description-and-prices .real-price {
-    font-size: 14px;
-    text-decoration: line-through;
-    display: inline;
-}
-
-/* Trapeze container */
-.carrosel-infos-item .item-btn .container-btn-detail {
-    transform: rotateZ(180deg);
-}
-
-.carrosel-infos-item .item-btn .container-btn-detail p {
-    transform: rotateZ(180deg);
-}
-
-.carrosel-infos-item .item-btn .container-btn-detail .btn-detail {
-    background-color: var(--secundary-color);
-}
-
-.carrosel-infos-item .item-btn .container-btn-detail .triangle {
-    background-color: var(--secundary-color);
-}
-
-.carrosel-infos-item .item-btn .container-btn-detail p {
-    color: var(--darken-secundary-color);
+    height: 1.2rem;
 }

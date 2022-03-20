@@ -1,0 +1,30 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 50px 50px 10px 50px;
+}
+
+.header-menus .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 48px;
+}
+
+.header-menus nav .toolbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 32px;
+}
+
+.header-menus nav .spacing-bar {
+    background-color: black;
+    width: 2px;
+    height: 30px;
+}

@@ -4,8 +4,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./sources/styles/main.css">
-        <link rel="stylesheet" type="text/css" href="./sources/styles/carrosel/trapeze-button.css">
-        <link rel="stylesheet" type="text/css" href="./sources/styles/header/dropbox.css">
+        <link rel="stylesheet" type="text/css" href="./sources/styles/header/header.css">
+        <link rel="stylesheet" type="text/css" href="./sources/styles/carrosel/trapeze-button-left.css">
+        <link rel="stylesheet" type="text/css" href="./sources/styles/carrosel/carrosel.css">
+        <link rel="stylesheet" type="text/css" href="./sources/styles/header/dropdown.css">
         <link rel="stylesheet" type="text/css" href="./sources/styles/header/shoping-cart.css">
         
         <title>Papelaria | Leaf World</title>
@@ -14,20 +16,20 @@
         <header> <!-- When scrolldown keep fixed on top, minimized and with animation -->
             <div class="header-container">
                 <div class="site-name">
-                    <h3>Leaf World</h3>
+                    <h3 class="title">Leaf World</h3> <!-- Add another font -->
                 </div>
                 <div class="header-menus">
-                    <nav>
+                    <nav class="navigation">
                         <div class="toolbar">
-                            <div class="search">
+                            <button class="search">
                                 <img src="./sources/images/search.svg" alt="Icone para pesquisar" class="icon">
-                            </div>
-                            <div class="dropbox">
-                                    <div class="dropbox-menu">
+                            </button>
+                            <div class="dropdown-container">
+                                    <button class="dropdown-icon">
                                         <img src="./sources/images/user.svg" alt="Sua Conta" class="icon">
-                                    </div>
-                                    <div class="dropbox-submenu">
-                                        <div class="menus-links">
+                                    </button>
+                                    <div class="submenu-container">
+                                        <div class="submenu">
                                             <a href="/404.html">Meus Pedidos</a>
                                             <a href="/404.html">Central atendimento</a>
                                             <a href="/404.html">Lista de desejos</a>
@@ -60,13 +62,13 @@
                     <div class="image-item">
                         <img src="https://images.unsplash.com/photo-1529651737248-dad5e287768e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1530&q=80" alt="Imagem de Planner">
                     </div>
-                    <div class="carrosel-infos-item">
+                    <div class="detail-item">
                         <h1 class="title">Planners Plano Perfeito</h1>
-                        <div class="total-price">
-                            <h2 class="unit">R$</h2>
-                            <h2 class="price">54,90</h2>    
+                        <div class="price-rotated-container">
+                            <h3 class="unit">R$</h3>
+                            <h3 class="price">54,90</h3>    
                         </div>
-                        <div class="description-and-prices">
+                        <div class="item-description-and-prices">
                             <p class="description">Entre no novo ano com o Planejador de Paixão do Espaço Anual de Possibilidades Infinitas de 2022! Mapeie os territórios inexplorados de sua vida usando este planejador de produtividade como seu guia</p>
                             <div class="prices">
                                 <p class="real-price">De R$69,99</p>
@@ -74,20 +76,17 @@
                             </div>
                         </div>
                         
-                        <div class="item-btn">
+                        <div class="container-btns">
                             <div class="container-btn-trapeze container-btn-add">
                                 <button class="btn-trapeze btn-add">
                                     <p>Adicionar ao Carrinho</p>
                                 </button>
-                                <div class="triangle"></div>
                             </div>
                             <div class="container-btn-trapeze container-btn-detail">
                                 <button class="btn-trapeze btn-detail">
                                     <p>Ver mais detalhes</p>
                                 </button>
-                                <div class="triangle"></div>
                             </div>
-                            
                         </div>
                     </div>
                 </div>

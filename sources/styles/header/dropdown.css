@@ -1,24 +1,24 @@
-.dropbox-submenu {
+.submenu-container {
     display: none;
     position: absolute;
 
     background: var(--fourth-color);
-    transform: translateX(-69px) translateY(10px);
+    transform: translateX(-67.5px) translateY(11px);
     border-radius: 6%;
 }
 
-.dropbox-submenu::before {
+.submenu-container::before {
     content: ' ';
     position: absolute;
     border: solid transparent;
     top: -19px;
-    left: 70px;
+    left: 67px;
     border-bottom-color: var(--fourth-color);
     border-width: 10px;
     transform: scaleX(1.5);
 }
 
-.dropbox-submenu .menus-links {
+.submenu-container .submenu {
     display: flex;
     flex-direction: column;
     
@@ -28,18 +28,19 @@
     text-align: center;
 }
 
-.dropbox-submenu a {
+.submenu-container a {
     color: black;
     text-decoration: none;
+    font-size: 0.8rem;
     display: block;
     padding: 10px 20px;
 }
 
-.dropbox-submenu a:hover {
+.submenu-container a:hover {
     color: var(--darken-fourth-color);
     border-radius: 8px;
 }
 
-.dropbox:hover .dropbox-submenu { /*Add delay to appear and desappear*/
+.dropdown-container:hover .submenu-container { /*Add delay to appear and desappear*/
     display: block;
 }
