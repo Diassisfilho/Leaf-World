@@ -1,7 +1,7 @@
 <h1 style="text-align: center;">Portifolio WEB site of stationery store coded with HTML5, CSS3 and Javascript</h1>
 
-![Page on second commit of porject on 2022, 18 of march](./docs/Screenshot_18-03_Papelaria_Leaf_World-Full_page.png)
->*"The image above is the full page screenshot of the commit started with 7e0381c, if not is the current commit view on github pages, link on description of repository, to see the current version look."*
+![Page initials commit of project on 2022, 18 of march](./docs/Screenshot_current_Papelaria_Leaf_World-Full_page.png)
+>*"The image above is the full page screenshot of the commit started with 2db0162, if not is the current commit view on github pages, link on description of repository, the current version look."*
 
 # The roadmap of additions of features
 See on the projects tab of this repository.
@@ -13,9 +13,7 @@ The motivation for these choices on this page is not yet documented, but in prog
 # Contacts
 Take a look at all my contacts on my Github profile:
 
-[Github Profile]([https://https://github.com/Diassisfilho)
+[Github Profile](https://https://github.com/Diassisfilho)
 
 # License
-And of course:
-
 MIT: https://rem.mit-license.org
