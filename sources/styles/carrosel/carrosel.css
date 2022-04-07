@@ -71,7 +71,8 @@
 
 .container-btn-add p {
     color: var(--darken-fourth-color);
-    padding: 6px 27px 6px 18px;
+    padding-left: 5%;
+    padding-right: 10%;
 }
 
 /* Styling detail button */
@@ -81,9 +82,10 @@
 
 .container-btn-detail p {
     color: var(--darken-secundary-color);
-    padding: 6px 18px 6px 27px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .container-btn-detail:after, .container-btn-detail .btn-trapeze {
-    background-color: var(--secundary-color);
+    background-color: rgb(65 126 237);
 }
