@@ -17,17 +17,31 @@
     flex-direction: column;
     justify-content: space-between;
 
-    max-width: 490px;
+    width: clamp(200px, 40%, 490px);
+}
+
+.title-and-price-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.title-and-price-container .title {
+    width: 90%;
+}
+
+.title-and-price-sub-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 10%;
 }
 
 .price-rotated-container {
-    position: absolute;
-    transform: rotateZ(-90deg) translateX(-41px) translateY(470px);
+    transform: rotateZ(-90deg);
+    align-items: baseline;
+    display: flex;
     opacity: 0.6;
-}
-
-.price-rotated-container > .unit, .price {
-    display: inline;
 }
 
 .price-rotated-container .unit {
